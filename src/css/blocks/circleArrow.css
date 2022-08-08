@@ -1,0 +1,76 @@
+.circleArrow {
+    display: flex;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+    transition: opacity 200ms ease;
+}
+
+.circleArrow--black {
+    border-color: #000;
+}
+
+.circleArrow--black .circleArrow__icon {
+    fill: transparent;
+    stroke: #191919;
+}
+
+.circleArrow--blue {
+    border-color: #58B8F6;
+}
+
+.circleArrow:hover {
+    opacity: 0.6;
+    transition: opacity 200ms ease;
+}
+
+.circleArrow[aria-disabled="true"],
+.circleArrow--disabled {
+    opacity: 0.3;
+    transition: opacity 200ms ease;
+}
+
+.circleArrow--disabled:hover {
+    opacity: 0.3;
+}
+
+.circleArrow__icon {
+    width: 40px;
+    height: 40px;
+
+    fill: transparent;
+    stroke: #ffffff;
+}
+
+.circleArrow__icon--top {
+    transform: rotate(90deg);
+}
+
+.circleArrow__icon--right {
+    transform: scaleX(-1);
+}
+
+.circleArrow__icon--blue {
+    fill: transparent;
+    stroke: #58B8F6;
+}
+
+.circleArrow__icon--disabled {
+    fill: transparent;
+    stroke: #1919194D;
+}
+
+@media screen and (max-width: 1024px) {
+    .circleArrow__icon {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .circleArrow__icon {
+        width: 26px;
+        height: 26px;
+    }
+}

@@ -1,0 +1,25 @@
+.contactsMap {
+
+}
+
+.contactsMap__wrapper {
+    width: 100%;
+    height: 757px;
+}
+
+.contactsMap__wrapper iframe {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1024px){
+    .contactsMap__wrapper iframe{
+        height: 438px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contactsMap__wrapper iframe{
+        height: 251px;
+    }
+}

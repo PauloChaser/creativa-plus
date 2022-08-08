@@ -1,0 +1,79 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import "fonts.css";
+
+
+@import "blocks/container.css";
+@import "blocks/advantages.css";
+@import "blocks/button.css";
+@import "blocks/colorPanels.css";
+@import "blocks/link.css";
+@import "blocks/topBanner.css";
+@import "blocks/title.css";
+@import "blocks/playButton.css";
+@import "blocks/inNumbersItems.css";
+@import "blocks/contactsLinks.css";
+@import "blocks/searchPanelSuggestions.css";
+@import "blocks/input.css";
+@import "blocks/team.css";
+@import "blocks/circleArrow.css";
+@import "blocks/carouselSlide.css";
+@import "blocks/carouselItem.css";
+@import "blocks/contactTheManager.css";
+@import "blocks/checkbox.css";
+@import "blocks/sliderCard.css";
+@import "blocks/arrows.css";
+@import "blocks/select.css";
+@import "blocks/reviews.css";
+@import "blocks/socials.css";
+@import "blocks/table.css";
+@import "blocks/modals.css";
+@import "blocks/videoContainer.css";
+@import "blocks/overlay.css";
+
+
+@import "sections/searchPanel.css";
+@import "sections/header.css";
+@import "sections/footer.css";
+@import "sections/mainAdvantages.css";
+@import "sections/mainCostAndOffer.css";
+@import "sections/mainBanner.css";
+@import "sections/mainMenu.css";
+@import "sections/mainTeam.css";
+@import "sections/mainDevelopSolutions.css";
+@import "sections/mainExperience.css";
+@import "sections/mainCases.css";
+@import "sections/mainReviews.css";
+@import "sections/contactsBanner.css";
+@import "sections/contactsMap.css";
+@import "sections/contactsDetails.css";
+@import "sections/contactsFeedback.css";
+@import "sections/warrantyBanner.css";
+@import "sections/warrantyContactManager.css";
+@import "sections/warrantyConditions.css";
+@import "sections/warrantyExamples.css";
+@import "sections/warrantySpareParts.css";
+@import "sections/serviceColorPanels.css";
+@import "sections/searchPage.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    color: #191919;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+
+    background-color: #FBFBFB;
+
+    --swiper-theme-color: #58B8F6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input:-webkit-autofill {
+    color: transparent !important;
+}

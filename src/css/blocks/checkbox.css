@@ -1,0 +1,107 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox__element {
+    position: relative;
+    visibility: hidden;
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+    align-self: flex-start;
+
+    transition: opacity 200ms ease;
+}
+
+.checkbox__element:hover {
+    opacity: 0.7;
+
+}
+
+.checkbox__element--white {
+    color: #ffffff;
+}
+
+.checkbox__label {
+    margin-left: 21px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+
+    font-style: normal;
+    line-height: 1.3;
+    transition: opacity 200ms ease;
+}
+
+.checkbox__label:hover {
+    opacity: 0.7;
+    transition: opacity 200ms ease;
+}
+
+.checkbox__label--fz12 {
+    font-size: 12px;
+}
+
+.checkbox__element::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 21px;
+    height: 21px;
+
+    box-sizing: border-box;
+    border: 1px solid #191919;
+
+    visibility: visible;
+}
+
+.checkbox__element::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 6px;
+    height: 10px;
+    width: 13px;
+
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMyAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjY2MTUgMS42NjkzNkwxMS41IDAuNTA3ODEyTDQuNjg3OTEgNy4zMTk4OEwxLjE2MTU0IDMuNzkzNTFMMCA0Ljk1NTA2TDQuNjg3OTEgOS42NDI5N0wxMi42NjE1IDEuNjY5MzZaIiBmaWxsPSIjMTkxOTE5Ii8+Cjwvc3ZnPgo=");
+    background-repeat: no-repeat;
+    opacity: 0;
+    visibility: visible;
+
+    transition: opacity 200ms ease;
+}
+
+.checkbox__element--white::before {
+    border: 1px solid #ffffff;
+}
+
+.checkbox__element--white::after {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMyAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjY2MTUgMS4xNjE1NEwxMS41IDBMNC42ODc5MSA2LjgxMjA3TDEuMTYxNTQgMy4yODU3TDAgNC40NDcyNUw0LjY4NzkxIDkuMTM1MTVMMTIuNjYxNSAxLjE2MTU0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==");
+}
+
+.checkbox__element:checked::after {
+    opacity: 1;
+}
+
+.checkbox__element[data-valid="false"]::before {
+    border-color: red;
+}
+
+@media screen and (max-width: 1024px) {
+    .checkbox__element + .checkbox__label {
+        margin-left: 20px;
+        font-size: 12px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .checkbox__element + .checkbox__label {
+        margin-left: 20px;
+        font-size: 12px;
+
+    }
+}

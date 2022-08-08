@@ -1,0 +1,33 @@
+.serviceColorPanels {
+    margin-bottom: 130px;
+}
+
+.serviceColorPanels--mounting .colorPanels__panel--blue {
+    padding-top: 100px;
+}
+
+.serviceColorPanels--mounting .colorPanels__panel--blue .colorPanels__title,
+.serviceColorPanels--mounting .colorPanels__panel--blue .colorPanels__text {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .serviceColorPanels {
+        margin-bottom: 50px;
+    }
+
+    .serviceColorPanels--mounting .colorPanels__panel--blue {
+        padding-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .serviceColorPanels {
+        margin-bottom: 40px;
+    }
+
+    .serviceColorPanels--mounting .colorPanels__panel--blue {
+        padding-top: 54px;
+    }
+}

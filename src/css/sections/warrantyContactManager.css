@@ -1,0 +1,39 @@
+.warrantyContactManager .contactTheManager {
+    align-items: flex-end;
+}
+
+.warrantyContactManager .contactTheManager__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #191919;
+}
+
+.warrantyContactManager .contactTheManager__title span {
+    color: #58B8F6;
+}
+
+.warrantyContactManager .contactTheManager__text {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px){
+    .warrantyContactManager .contactTheManager {
+        align-items: flex-end;
+    }
+
+    .warrantyContactManager .contactTheManager__title {
+        font-size: 16px;
+        line-height: 1.4;
+
+        margin-bottom: 30px;
+    }
+
+    .warrantyContactManager .contactTheManager__text {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+}

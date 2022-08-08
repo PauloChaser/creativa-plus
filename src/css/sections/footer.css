@@ -1,0 +1,238 @@
+.footer {
+    background: linear-gradient(112.57deg, #0538B8 16.99%, #7381CB 79.8%, #93B5E9 114.17%);
+    color: #fff;
+    padding: 125px 30px 65px 30px;
+    position: relative;
+}
+
+.footer__columns {
+    margin-bottom: 80px;
+}
+
+.footer__column {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+    width: 62px;
+    height: 77px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: -18px;
+
+    fill: #ffffff;
+}
+
+.footer__columnTitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 35px;
+}
+
+.footer__columnTitle--visibility {
+    display: none;
+}
+
+.footer__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.footer__link {
+    display: inline-block;
+}
+
+.footer__link a {
+    color: #FFFFFFB2;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 32px;
+
+    transition: color 100ms ease;
+}
+
+.footer__link a:hover {
+    color: #ffffff;
+}
+
+.footer__links--main .footer__link {
+    margin-bottom: 20px;
+
+    transition: opacity 200ms ease;
+}
+
+.footer__links--main .footer__link a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+.footer__links--main:hover .footer__link:not(:hover) {
+    opacity: 0.5;
+    transition: opacity 200ms ease;
+}
+
+.footer__socials {
+    display: none;
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    margin-left: 75%;
+}
+
+.footer__copyrightText {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footer__copyrightLogo {
+    width: 126px;
+    height: 34px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.footer__slideUp {
+    position: absolute;
+    top: 125px;
+    right: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+
+    .footer__columns {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .footer__column {
+        flex-direction: column;
+        justify-content: stretch;
+        width: 100%;
+    }
+
+    .footer__column--row {
+        flex-direction: row;
+    }
+
+    .footer__columnTitle {
+        font-size: 16px;
+        width: 100%;
+        border-bottom: 1px solid #FFFFFF7C;
+        padding-bottom: 16px;
+
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .footer__columnTitle::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 7px;
+        display: inline-block;
+        width: 10px;
+        height: 6px;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEwIDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik04Ljc2MTE3IC0xLjUzMTg1ZS0wNkw1IDMuNjE3MTlMMS4yMzg4MyAtMi4xNjYwNGUtMDdMMi4wODMxMmUtMDcgMS4xOTE0MUw1IDZMMTAgMS4xOTE0TDguNzYxMTcgLTEuNTMxODVlLTA2WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==");
+        background-position: right;
+
+        transform: rotate(-90deg);
+        transition: transform 200ms ease;
+    }
+
+    .footer__columnTitle--active::after {
+        transform: rotate(0deg);
+    }
+
+    .footer__columnTitle--visibility {
+        display: inline-block;
+    }
+
+    .footer__link a {
+        color: #FFFFFF;
+        font-weight: 400;
+        line-height: 32px;
+
+    }
+
+    .footer__links--main .footer__link {
+        margin-bottom: 15px;
+    }
+
+    .footer__links--main .footer__link a {
+        font-weight: 400;
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 1.2;
+    }
+
+    .footer__links {
+        transition: height 0.35s ease-in-out;
+        overflow: hidden;
+        display: none;
+    }
+
+    .footer__links--active {
+        display: flex;
+    }
+
+    .footer__copyright {
+        margin-left: calc(50% - 116px);
+    }
+
+    .footer__slideUp {
+        display: none;
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__columns {
+        flex-direction: column;
+    }
+
+    .footer__column {
+
+    }
+
+    .footer__contactsLinks  {
+        margin-left: 50px;
+    }
+
+    .footer__socials {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .footer__copyright {
+        margin-left: 0;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,66 @@
+.contactsLinks {
+    color: #ffffff;
+}
+
+
+.contactsLinks__phone {
+    margin-bottom: 35px;
+}
+
+.contactsLinks__phoneTitle {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+
+    margin-bottom: 15px;
+}
+
+.contactsLinks__phoneNumber {
+    text-decoration: none;
+    color: #ffffff;
+
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    transition: color 200ms ease;
+}
+
+.contactsLinks__phoneNumber:hover {
+    color: #ffffffB3;
+
+    transition: color 200ms ease;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contactsLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 110px;
+    }
+
+    .contactsLinks__phone {
+        flex: 1 1 0;
+        margin-bottom: 0;
+    }
+
+    .contactsLinks__phoneNumber {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .contactsLinks__socials {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contactsLinks .socials {
+        display: none;
+    }
+
+
+}

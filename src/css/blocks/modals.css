@@ -1,0 +1,70 @@
+.modals {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+
+  cursor: pointer;
+
+  transition: opacity 200ms ease, visibility 200ms ease, backdrop-filter 200ms ease;
+
+  background: #fff4;
+  z-index: 100;
+  overflow-y: auto;
+  padding: 100px 0;
+
+  backdrop-filter: blur(6px);
+}
+
+.modals--active {
+  pointer-events: all;
+  visibility: visible;
+  opacity: 1;
+}
+
+.modals__item {
+  display: none;
+  cursor: auto;
+}
+
+.modals__item--video {
+  background: #000;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
+.modals__item--centred {
+  align-self: center;
+}
+
+.modals__item--active {
+  display: block;
+}
+
+@media screen and (max-width: 1354px) {
+  .modals {
+    padding: 0;
+  }
+
+  .modals__item {
+    width: 100%;
+  }
+
+  .modals__item--video {
+    margin: 0;
+  }
+}

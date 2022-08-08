@@ -1,0 +1,210 @@
+.videoContainer {
+  background: #000;
+  overflow: hidden;
+
+  transition: height 1000ms ease;
+}
+
+.videoContainer--active {
+  height: 100vh;
+}
+
+.videoContainer__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+
+  transition: opacity 300ms ease;
+}
+
+.videoContainer--active .videoContainer__img img {
+  opacity: 0;
+}
+
+.videoContainer__play {
+  opacity: 1;
+  transition: opacity 300ms ease;
+}
+
+.videoContainer--active .videoContainer__play {
+  opacity: 0;
+}
+
+.videoContainer__videoWrap {
+  width: 100%;
+  height: 100%;
+
+}
+
+.videoContainer--active .videoContainer__videoWrap {
+  opacity: 1;
+  visibility: visible;
+}
+
+.videoContainer__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.videoContainer__controls {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  bottom: 0;
+
+  opacity: 0.5;
+  transition: opacity 0.4s;
+
+  padding: 50px 10%;
+}
+
+.videoContainer__controls::after {
+  content: '';
+  background: linear-gradient(180deg, #00000000 0%, #00000088 100%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.5;
+
+  transition: opacity 0.4s;
+}
+
+.videoContainer__controls:hover {
+  opacity: 1;
+}
+
+.videoContainer__controls:hover::after {
+  opacity: 1;
+}
+
+.videoContainer__controlPlayPause {
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+
+  border: none;
+  cursor: pointer;
+
+  margin-bottom: 20px;
+}
+
+.videoContainer__controlPlay {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxNSAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE1IDlMLTguMTU2NjZlLTA3IDE3LjY2MDNMLTUuODU2MjFlLTA4IDAuMzM5NzQ1TDE1IDlaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 0 center;
+  padding-left: 45px;
+  display: none;
+}
+
+.videoContainer__controlPlay--active {
+  display: block;
+}
+
+.videoContainer__controlPause {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAyMCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjUiIGhlaWdodD0iMTgiIGZpbGw9IndoaXRlIi8+CjxyZWN0IHg9IjE1IiB3aWR0aD0iNSIgaGVpZ2h0PSIxOCIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==");
+  background-repeat: no-repeat;
+  background-size: 20px 18px;
+  background-position: 0 center;
+  padding-left: 45px;
+  display: none;
+}
+
+.videoContainer__controlPause--active {
+  display: block;
+}
+
+.videoContainer__controlTimeline {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 100%;
+}
+
+.videoContainer__controlTimelineBar {
+  background: #FFFFFF33;
+  height: 1px;
+  flex: 1;
+}
+
+.videoContainer__controlTimelineBarInner {
+  background: #ffffff;
+  width: 0;
+  height: 100%;
+}
+
+.videoContainer__controlTime {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.videoContainer__closeBtn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.videoContainer__closeBtn::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  transform: rotate(-45deg);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.videoContainer__closeBtn::before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  transform: rotate(45deg);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .videoContainer__controls {
+    opacity: 1;
+  }
+
+  .videoContainer__video {
+    object-fit: contain;
+  }
+
+  .videoContainer__closeBtn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,164 @@
+.carouselItem {
+  --transtiton-delay: 200ms;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  transition: width var(--transtiton-delay) ease;
+
+  width: 478px;
+}
+
+.carouselItem.carouselItem--active {
+  width: 589px;
+}
+
+.carouselItem__linkImg {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+  user-select: none;
+}
+
+.carouselItem__img {
+  border-radius: 15px;
+
+  width: 100%;
+}
+
+.carouselItem__linkTouch {
+  display: none;
+}
+
+.carouselItem__subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.4;
+  color: #191919;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.carouselItem__description {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3;
+  color: #19191999;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+
+.carouselItem__btn {
+  display: inline-block;
+}
+
+.carouselItem__description,
+.carouselItem__btn {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-50px);
+
+  transition: opacity var(--transtiton-delay) ease, transform var(--transtiton-delay) ease, visibility var(--transtiton-delay) ease;
+}
+
+.carouselItem--active .carouselItem__description,
+.carouselItem--active .carouselItem__btn {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+@media screen and (max-width: 1024px) {
+  .carouselItem {
+    width: 230px;
+  }
+
+  .carouselItem.carouselItem--active {
+    width: 230px;
+  }
+
+  .carouselItem__linkImg {
+    margin-bottom: 15px;
+  }
+
+  .carouselItem__linkImg::before {
+    content: "";
+    background: linear-gradient(180deg, rgba(6, 39, 137, 0) 0%, rgba(17, 36, 94, 0.64) 100%);
+    opacity: 0.5;
+    border-radius: 15px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    transition: opacity 200ms ease;
+  }
+
+  .carouselItem__linkTouch {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 100%;
+  }
+
+  .carouselItem__linkTouch span {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3;
+    color: #FBFBFB;
+  }
+
+  .carouselItem__linkTouchArrow {
+    width: 14px;
+    height: 11px;
+    margin-left: 97px;
+
+    stroke: #FBFBFB;
+  }
+
+  .carouselItem__subtitle {
+    font-size: 12px;
+
+    margin-bottom: 10px;
+  }
+
+  .carouselItem__description {
+    display: inline-block;
+    font-size: 12px;
+    color: #19191999;
+    margin: 0;
+    padding: 0;
+  }
+
+  .carouselItem--active .carouselItem__description {
+    display: inline-block;
+    font-size: 12px;
+    color: #19191999;
+  }
+
+  .carouselItem__description,
+  .carouselItem__btn {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .carouselItem__btn {
+    display: none;
+  }
+
+  .carouselItem--active .carouselItem__btn {
+    display: none;
+  }
+}

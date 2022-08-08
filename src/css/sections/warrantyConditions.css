@@ -1,0 +1,110 @@
+.warrantyConditions {
+    background-image: url("/img/warrantyConditions-BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 130px 0;
+    padding: 114px 159px 102px 159px;
+    overflow: hidden;
+}
+
+.warrantyConditions__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    color: #ffffff;
+}
+
+.warrantyConditions__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15%;
+    flex-basis: 35%;
+}
+
+.warrantyConditions__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: flex-end;
+
+    flex-basis: 60%;
+}
+
+.warrantyConditions__item {
+    flex-basis: 45%;
+}
+
+.warrantyConditions__itemTitle {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.warrantyConditions__itemText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .warrantyConditions {
+        margin: 50px 0;
+        padding: 50px 64px 50px 30px;
+    }
+
+    .warrantyConditions__title {
+        font-size: 25px;
+        line-height: 1.2;
+
+        padding-bottom: 0;
+        flex-basis: 45%;
+    }
+
+    .warrantyConditions__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        flex-direction: column;
+
+        flex-basis: 45%;
+    }
+
+    .warrantyConditions__item:first-child {
+        margin-bottom: 30px;
+    }
+
+
+    .warrantyConditions__itemTitle {
+        margin-bottom: 20px;
+    }
+
+    .warrantyConditions__itemText {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .warrantyConditions {
+        margin: 40px 0;
+        padding: 40px 15px;
+    }
+
+    .warrantyConditions__wrapper {
+        flex-direction: column;
+    }
+
+    .warrantyConditions__title {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+}

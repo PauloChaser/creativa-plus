@@ -1,0 +1,209 @@
+
+.socials__title {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+
+    margin-bottom: 25px;
+}
+
+.socials_panel {
+    display: grid;
+    grid-template-columns: 35px 35px 35px 35px;
+}
+
+.socials_panel--3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.socials__phoneNumber {
+    margin-left: 38px;
+    text-decoration: none;
+    color: #00000099;
+
+    transition: color 200ms ease;
+}
+
+.socials__phoneNumber:hover {
+    color: #000000;
+
+    transition: color 200ms ease;
+}
+
+.socials__icon {
+    fill: #ffffff;
+    transition: fill 200ms ease;
+}
+
+.socials__icon:hover {
+    fill: #ffffff99;
+    transition: fill 200ms ease;
+}
+
+.socials__icon--black {
+    fill: #00000099;
+    transition: fill 200ms ease;
+}
+
+.socials__icon--black:hover {
+    fill: #000000;
+    transition: fill 200ms ease;
+}
+
+.socials__icon--light {
+    fill: #ffffff99;
+
+    transition: fill 200ms ease;
+}
+
+.socials__icon--light:hover {
+    fill: #ffffff;
+    transition: fill 200ms ease;
+}
+
+.socials__icon--facebook {
+    width: 8px;
+    height: 16px;
+}
+
+.socials__icon--inst {
+    width: 16px;
+    height: 16px;
+}
+
+.socials__icon--vk {
+    width: 24px;
+    height: 14px;
+}
+
+.socials__icon--telegram {
+    width: 20px;
+    height: 16px;
+}
+
+.socials__icon--telegramXl {
+    width: 28px;
+    height: 23px;
+}
+
+.socials__icon--phone {
+    width: 23px;
+    height: 23px;
+
+}
+
+.socials__icon--whatsApp {
+    width: 23px;
+    height: 23px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .socials__title {
+        margin-bottom: 20px;
+    }
+
+    .socials_panel {
+        display: grid;
+        grid-template-columns: 35px 35px 35px 35px;
+    }
+
+    .socials_panel--3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+        order: 2;
+    }
+
+    .socials__icon--light {
+        fill: #ffffff;
+    }
+
+
+    .socials__icon--black {
+        fill: #00000099;
+    }
+
+    .socials__icon--facebook {
+        width: 8px;
+        height: 16px;
+    }
+
+    .socials__icon--inst {
+        width: 16px;
+        height: 16px;
+    }
+
+    .socials__icon--vk {
+        width: 24px;
+        height: 14px;
+    }
+
+    .socials__icon--telegram {
+        width: 20px;
+        height: 16px;
+    }
+
+    .socials__phoneNumber {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .socials__title {
+        margin-bottom: 20px;
+    }
+
+    .socials_panel {
+        display: grid;
+        grid-template-columns: 35px 35px 35px 35px;
+    }
+
+    .socials_panel--3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+        order: 2;
+    }
+
+    .socials__icon {
+        fill: #ffffff;
+    }
+
+
+    .socials__icon--black {
+        fill: #00000099;
+    }
+
+    .socials__icon--facebook {
+        width: 8px;
+        height: 16px;
+    }
+
+    .socials__icon--inst {
+        width: 16px;
+        height: 16px;
+    }
+
+    .socials__icon--vk {
+        width: 24px;
+        height: 14px;
+    }
+
+    .socials__icon--telegram {
+        width: 20px;
+        height: 16px;
+    }
+
+
+}

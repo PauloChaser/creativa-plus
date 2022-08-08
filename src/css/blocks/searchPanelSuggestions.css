@@ -1,0 +1,13 @@
+.searchPanelSuggestions__items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.searchPanelSuggestions__Link {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.5;
+    text-decoration: none;
+}

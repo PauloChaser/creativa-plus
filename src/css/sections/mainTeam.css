@@ -1,0 +1,47 @@
+.mainTeam {
+    background: url("/img/mainTeamBG.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 129px;
+    padding-bottom: 129px;
+}
+
+.mainTeam__sliderWrapper {
+    display: flex;
+    width: 100%;
+}
+
+.mainTeam__slide {}
+
+.mainTeam__circleArrows {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 50px);
+    z-index: 10;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .mainTeam {
+        background: url("/img/mainTeamBG.jpg") no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .mainTeam__circleArrows {
+        width: 71px;
+        bottom: 5px;
+        top: auto;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mainTeam {
+        padding-top: 40px;
+        background: url("/img/mainTeamBG--mob.jpg") no-repeat;
+        background-size: cover;
+    }
+}

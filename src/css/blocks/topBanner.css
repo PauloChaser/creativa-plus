@@ -1,0 +1,176 @@
+.topBanner {
+    color: #ffffff;
+
+    margin-bottom: 100px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+
+.topBanner__titleAndBtn {
+    width: 40%;
+}
+
+.topBanner__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 67px;
+}
+
+.topBanner__title--marginSmall {
+    margin-bottom: 20px;
+}
+
+
+.topBanner__title--marginBottom60 {
+    margin-bottom: 60px;
+}
+
+.topBanner__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+    width: 80%;
+}
+
+.topBanner__btns {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    z-index: 10;
+}
+
+.topBanner__img {
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.topBanner__img img {
+    width: 100%;
+    height: auto;
+}
+
+.topBanner__img--borderRadius img {
+    border-radius: 25px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .topBanner {
+
+        margin-right: 0;
+
+        padding: 60px 15px 35px 15px;
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+
+    .topBanner__titleAndBtn {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topBanner__title {
+        margin-bottom: 25px;
+    }
+
+    .topBanner__text {
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    .topBanner__btn {
+        margin-bottom: 0;
+    }
+
+    .topBanner__img {
+        width: 100%;
+
+        margin-top: 48px;
+    }
+
+    .topBanner__img--borderRadius img {
+        border-radius: 10px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .topBanner {
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 60px 15px 35px 15px;
+        margin-bottom: 0;
+        flex-direction: column;
+        margin-top: 56px;
+    }
+
+    .topBanner--1 {
+        background-image: url("/img/mainBannerHD.jpg");
+    }
+
+    .topBanner--2 {
+        background-image: url("/img/productRoadBoardsBannerBG.jpg");
+    }
+
+    .topBanner--3 {
+        background-image: url("/img/aboutCompanyBanner_BG.jpg");
+    }
+
+    .topBanner--4 {
+        background-image: url("/img/deliveryBanner-BG.jpg");
+    }
+
+     .topBanner--5 {
+        background-image: url("/img/serviceBannerTopBanner5-BG.jpg");
+    }
+
+    .topBanner__titleAndBtn {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topBanner__title {
+        margin-bottom: 20px;
+    }
+
+    .topBanner__text {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .topBanner__btns {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .topBanner__btn {
+        margin-bottom: 20px;
+    }
+
+    .topBanner__img {
+        width: 100%;
+
+        margin-right: 0;
+        margin-top: 20px;
+    }
+}

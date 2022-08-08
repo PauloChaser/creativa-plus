@@ -1,0 +1,138 @@
+.warrantyBanner {
+    padding-top: 200px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYxNiIgaGVpZ2h0PSIyMzAiIHZpZXdCb3g9IjAgMCAxNjE2IDIzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0My41NDggMC4xODE4MTFWMzAuMDMxMkgzNC45MjMzVjIzMEgwLjI0ODU4VjAuMTgxODExSDE0My41NDhaTTE3NC44ODUgMjMwSDEzOC4wNzhMMjIwLjc4MSAwLjE4MTgxMUgyNjAuODQyTDM0My41NDUgMjMwSDMwNi43MzhMMjQxLjc2NSA0MS45MjYxSDIzOS45N0wxNzQuODg1IDIzMFpNMTgxLjA1NiAxNDAuMDAzSDMwMC40NTRWMTY5LjE3OUgxODEuMDU2VjE0MC4wMDNaTTM3Ni43MzMgMjMwVjAuMTgxODExSDQ1OC42NTFDNDc2LjUzIDAuMTgxODExIDQ5MS4zNDMgMy40MzYwNyA1MDMuMDg4IDkuOTQ0NTlDNTE0LjgzMyAxNi40NTMxIDUyMy42MjQgMjUuMzU1NiA1MjkuNDU5IDM2LjY1MkM1MzUuMjk0IDQ3Ljg3MzYgNTM4LjIxMiA2MC41MTY2IDUzOC4yMTIgNzQuNTgxQzUzOC4yMTIgODguNzIwMiA1MzUuMjU3IDEwMS40MzggNTI5LjM0NyAxMTIuNzM0QzUyMy41MTEgMTIzLjk1NiA1MTQuNjg0IDEzMi44NTggNTAyLjg2NCAxMzkuNDQyQzQ5MS4xMTggMTQ1Ljk1IDQ3Ni4zNDMgMTQ5LjIwNSA0NTguNTM4IDE0OS4yMDVINDAyLjIwNlYxMTkuODA0SDQ1NS4zOTZDNDY2LjY5MyAxMTkuODA0IDQ3NS44NTcgMTE3Ljg1OSA0ODIuODg5IDExMy45NjlDNDg5LjkyMSAxMTAuMDA0IDQ5NS4wODMgMTA0LjYxNyA0OTguMzc1IDk3LjgwOTdDNTAxLjY2NyA5MS4wMDE5IDUwMy4zMTIgODMuMjU5IDUwMy4zMTIgNzQuNTgxQzUwMy4zMTIgNjUuOTAyOSA1MDEuNjY3IDU4LjE5NzQgNDk4LjM3NSA1MS40NjQ1QzQ5NS4wODMgNDQuNzMxNSA0ODkuODg0IDM5LjQ1NzQgNDgyLjc3NyAzNS42NDJDNDc1Ljc0NSAzMS44MjY3IDQ2Ni40NjggMjkuOTE5IDQ1NC45NDcgMjkuOTE5SDQxMS40MDhWMjMwSDM3Ni43MzNaTTU3My44OTYgMjMwSDUzNy4wODlMNjE5Ljc5MyAwLjE4MTgxMUg2NTkuODU0TDc0Mi41NTcgMjMwSDcwNS43NUw2NDAuNzc3IDQxLjkyNjFINjM4Ljk4Mkw1NzMuODk2IDIzMFpNNTgwLjA2OCAxNDAuMDAzSDY5OS40NjZWMTY5LjE3OUg1ODAuMDY4VjE0MC4wMDNaTTc3NS43NDUgMjMwVjAuMTgxODExSDgxMC40MTlWMTAwLjA1NEg5MjQuOTkyVjAuMTgxODExSDk1OS43NzlWMjMwSDkyNC45OTJWMTI5Ljc5MUg4MTAuNDE5VjIzMEg3NzUuNzQ1Wk05OTguOTQyIDMwLjAzMTJWMC4xODE4MTFIMTE3Ni44VjMwLjAzMTJIMTEwNS4xVjIzMEgxMDcwLjU0VjMwLjAzMTJIOTk4Ljk0MlpNMTIxNi4xMSAwLjE4MTgxMUgxMjUwLjQ1VjE2OC45NTVIMTI1Mi41OEwxMzY5LjUxIDAuMTgxODExSDE0MDEuNlYyMzBIMTM2Ni45M1Y2MS40NTE3SDEzNjQuNzlMMTI0OC4wOSAyMzBIMTIxNi4xMVYwLjE4MTgxMVpNMTYxNS4xMiAyMzBIMTU4MC4zM1YyOS45MTlIMTUzNi43OUMxNTI1LjQyIDI5LjkxOSAxNTE2LjE4IDMxLjYzOTcgMTUwOS4wOCAzNS4wODFDMTUwMS45NyAzOC40NDc0IDE0OTYuNzcgNDMuMzEwMSAxNDkzLjQ4IDQ5LjY2OUMxNDkwLjE5IDU2LjAyNzkgMTQ4OC41NCA2My41NDY0IDE0ODguNTQgNzIuMjI0NEMxNDg4LjU0IDgwLjgyNzYgMTQ5MC4xOSA4OC4xOTY1IDE0OTMuNDggOTQuMzMxQzE0OTYuNzcgMTAwLjQ2NSAxNTAxLjkzIDEwNS4xNDEgMTUwOC45NiAxMDguMzU4QzE1MTYgMTExLjU3NSAxNTI1LjE2IDExMy4xODMgMTUzNi40NiAxMTMuMTgzSDE1OTUuMzdWMTQzLjAzM0gxNTMzLjJDMTUxNS40NyAxNDMuMDMzIDE1MDAuNyAxNDAuMDc4IDE0ODguODggMTM0LjE2OEMxNDc3LjEzIDEyOC4yNTggMTQ2OC4zIDExOS45OTEgMTQ2Mi4zOSAxMDkuMzY4QzE0NTYuNTYgOTguNjcgMTQ1My42NCA4Ni4yODg4IDE0NTMuNjQgNzIuMjI0NEMxNDUzLjY0IDU4LjA4NTIgMTQ1Ni41NiA0NS42MjkzIDE0NjIuMzkgMzQuODU2NUMxNDY4LjIzIDI0LjAwOSAxNDc3LjAyIDE1LjUxOCAxNDg4Ljc2IDkuMzgzNTFDMTUwMC41OCAzLjI0OTA1IDE1MTUuMzYgMC4xODE4MTEgMTUzMy4wOSAwLjE4MTgxMUgxNjE1LjEyVjIzMFpNMTUwMS42NyAxMjYuMzEySDE1NDAuMDVMMTQ4NC4yOCAyMzBIMTQ0NC44OUwxNTAxLjY3IDEyNi4zMTJaIiBmaWxsPSIjRjJGMkYyIi8+Cjwvc3ZnPgo=");
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 350px;
+
+    pointer-events: none;
+}
+
+.warrantyBanner::after {
+    content: "";
+    background-image: url("/img/warrantyBanner-BG.jpg");
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1 ;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.warrantyBanner__top {
+  pointer-events: all;
+}
+
+.warrantyBanner__top .topBanner {
+    align-items: flex-end;
+}
+
+.warrantyBanner__top .topBanner__titleAndBtn {
+    margin-right: 0;
+}
+
+.warrantyBanner__top .topBanner__title {
+    line-height: 1.2;
+    margin-bottom: 74px;
+}
+
+.warrantyBanner__top .inNumbersItems {
+    margin-bottom: 0;
+    justify-content: flex-end;
+}
+
+.warrantyBanner__heading {
+    width: 100%;
+}
+
+.warrantyBanner__headingSvg {
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 230px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .warrantyBanner {
+        padding-top: 60px;
+        padding-bottom: 150px;
+    }
+
+    .warrantyBanner .topBanner__titleAndBtn {
+        margin-bottom: 75px;
+    }
+
+    .warrantyBanner__top .topBanner__title {
+
+        margin-bottom: 60px;
+    }
+
+    .warrantyBanner__headingSvg {
+        height: 120px;
+    }
+
+    .warrantyBanner__top .inNumbersItems {
+      justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .warrantyBanner {
+        padding-top: 0;
+        background-image: none;
+        flex-direction: column;
+        padding-bottom: 0;
+      pointer-events: all;
+    }
+
+    .warrantyBanner__top .topBanner--3{
+        position: relative;
+    }
+
+    .warrantyBanner__top .inNumbersItems {
+        display: none;
+    }
+
+    .warrantyBanner .inNumbersItems {
+      background: #FFFFFF;
+    }
+
+    .warrantyBanner__headingSvg {
+        width: 100%;
+
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top: 47%;
+        height: 120px;
+    }
+
+    .warrantyBanner__topBanner {
+    }
+
+    .warrantyBanner__topBanner::after {
+      content: "";
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYxNiIgaGVpZ2h0PSIyMzAiIHZpZXdCb3g9IjAgMCAxNjE2IDIzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0My41NDggMC4xODE4MTFWMzAuMDMxMkgzNC45MjMzVjIzMEgwLjI0ODU4VjAuMTgxODExSDE0My41NDhaTTE3NC44ODUgMjMwSDEzOC4wNzhMMjIwLjc4MSAwLjE4MTgxMUgyNjAuODQyTDM0My41NDUgMjMwSDMwNi43MzhMMjQxLjc2NSA0MS45MjYxSDIzOS45N0wxNzQuODg1IDIzMFpNMTgxLjA1NiAxNDAuMDAzSDMwMC40NTRWMTY5LjE3OUgxODEuMDU2VjE0MC4wMDNaTTM3Ni43MzMgMjMwVjAuMTgxODExSDQ1OC42NTFDNDc2LjUzIDAuMTgxODExIDQ5MS4zNDMgMy40MzYwNyA1MDMuMDg4IDkuOTQ0NTlDNTE0LjgzMyAxNi40NTMxIDUyMy42MjQgMjUuMzU1NiA1MjkuNDU5IDM2LjY1MkM1MzUuMjk0IDQ3Ljg3MzYgNTM4LjIxMiA2MC41MTY2IDUzOC4yMTIgNzQuNTgxQzUzOC4yMTIgODguNzIwMiA1MzUuMjU3IDEwMS40MzggNTI5LjM0NyAxMTIuNzM0QzUyMy41MTEgMTIzLjk1NiA1MTQuNjg0IDEzMi44NTggNTAyLjg2NCAxMzkuNDQyQzQ5MS4xMTggMTQ1Ljk1IDQ3Ni4zNDMgMTQ5LjIwNSA0NTguNTM4IDE0OS4yMDVINDAyLjIwNlYxMTkuODA0SDQ1NS4zOTZDNDY2LjY5MyAxMTkuODA0IDQ3NS44NTcgMTE3Ljg1OSA0ODIuODg5IDExMy45NjlDNDg5LjkyMSAxMTAuMDA0IDQ5NS4wODMgMTA0LjYxNyA0OTguMzc1IDk3LjgwOTdDNTAxLjY2NyA5MS4wMDE5IDUwMy4zMTIgODMuMjU5IDUwMy4zMTIgNzQuNTgxQzUwMy4zMTIgNjUuOTAyOSA1MDEuNjY3IDU4LjE5NzQgNDk4LjM3NSA1MS40NjQ1QzQ5NS4wODMgNDQuNzMxNSA0ODkuODg0IDM5LjQ1NzQgNDgyLjc3NyAzNS42NDJDNDc1Ljc0NSAzMS44MjY3IDQ2Ni40NjggMjkuOTE5IDQ1NC45NDcgMjkuOTE5SDQxMS40MDhWMjMwSDM3Ni43MzNaTTU3My44OTYgMjMwSDUzNy4wODlMNjE5Ljc5MyAwLjE4MTgxMUg2NTkuODU0TDc0Mi41NTcgMjMwSDcwNS43NUw2NDAuNzc3IDQxLjkyNjFINjM4Ljk4Mkw1NzMuODk2IDIzMFpNNTgwLjA2OCAxNDAuMDAzSDY5OS40NjZWMTY5LjE3OUg1ODAuMDY4VjE0MC4wMDNaTTc3NS43NDUgMjMwVjAuMTgxODExSDgxMC40MTlWMTAwLjA1NEg5MjQuOTkyVjAuMTgxODExSDk1OS43NzlWMjMwSDkyNC45OTJWMTI5Ljc5MUg4MTAuNDE5VjIzMEg3NzUuNzQ1Wk05OTguOTQyIDMwLjAzMTJWMC4xODE4MTFIMTE3Ni44VjMwLjAzMTJIMTEwNS4xVjIzMEgxMDcwLjU0VjMwLjAzMTJIOTk4Ljk0MlpNMTIxNi4xMSAwLjE4MTgxMUgxMjUwLjQ1VjE2OC45NTVIMTI1Mi41OEwxMzY5LjUxIDAuMTgxODExSDE0MDEuNlYyMzBIMTM2Ni45M1Y2MS40NTE3SDEzNjQuNzlMMTI0OC4wOSAyMzBIMTIxNi4xMVYwLjE4MTgxMVpNMTYxNS4xMiAyMzBIMTU4MC4zM1YyOS45MTlIMTUzNi43OUMxNTI1LjQyIDI5LjkxOSAxNTE2LjE4IDMxLjYzOTcgMTUwOS4wOCAzNS4wODFDMTUwMS45NyAzOC40NDc0IDE0OTYuNzcgNDMuMzEwMSAxNDkzLjQ4IDQ5LjY2OUMxNDkwLjE5IDU2LjAyNzkgMTQ4OC41NCA2My41NDY0IDE0ODguNTQgNzIuMjI0NEMxNDg4LjU0IDgwLjgyNzYgMTQ5MC4xOSA4OC4xOTY1IDE0OTMuNDggOTQuMzMxQzE0OTYuNzcgMTAwLjQ2NSAxNTAxLjkzIDEwNS4xNDEgMTUwOC45NiAxMDguMzU4QzE1MTYgMTExLjU3NSAxNTI1LjE2IDExMy4xODMgMTUzNi40NiAxMTMuMTgzSDE1OTUuMzdWMTQzLjAzM0gxNTMzLjJDMTUxNS40NyAxNDMuMDMzIDE1MDAuNyAxNDAuMDc4IDE0ODguODggMTM0LjE2OEMxNDc3LjEzIDEyOC4yNTggMTQ2OC4zIDExOS45OTEgMTQ2Mi4zOSAxMDkuMzY4QzE0NTYuNTYgOTguNjcgMTQ1My42NCA4Ni4yODg4IDE0NTMuNjQgNzIuMjI0NEMxNDUzLjY0IDU4LjA4NTIgMTQ1Ni41NiA0NS42MjkzIDE0NjIuMzkgMzQuODU2NUMxNDY4LjIzIDI0LjAwOSAxNDc3LjAyIDE1LjUxOCAxNDg4Ljc2IDkuMzgzNTFDMTUwMC41OCAzLjI0OTA1IDE1MTUuMzYgMC4xODE4MTEgMTUzMy4wOSAwLjE4MTgxMUgxNjE1LjEyVjIzMFpNMTUwMS42NyAxMjYuMzEySDE1NDAuMDVMMTQ4NC4yOCAyMzBIMTQ0NC44OUwxNTAxLjY3IDEyNi4zMTJaIiBmaWxsPSIjRjJGMkYyIi8+Cjwvc3ZnPgo=");
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 10;
+      width: 100%;
+
+      background-position: bottom center;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      pointer-events: none;
+    }
+}

@@ -1,0 +1,93 @@
+.link {
+    text-decoration: none;
+    color: #349BE9;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.3;
+    display: inline-block;
+}
+
+.link::after {
+    content: "";
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxNiAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEgNi41SDE1TTE1IDYuNUw5LjQgMU0xNSA2LjVMOS40IDEyIiBzdHJva2U9IiMzNDlCRTkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K");
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 14px;
+    height: 11px;
+
+    margin-left: 15px;
+
+    transition: transform 200ms ease;
+}
+
+.link:hover::after {
+    transform: translateX(5px);
+
+
+    transition: transform 200ms ease;
+}
+
+.link--xl {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link--xl::after {
+    content: "";
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxNiAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEgNi41SDE1TTE1IDYuNUw5LjQgMU0xNSA2LjVMOS40IDEyIiBzdHJva2U9IiMzNDlCRTkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K");
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 27px;
+    height: 18px;
+    margin-bottom: -2px;
+}
+
+.link--white {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.link--arrow::after {
+    content: "";
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxNiAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEgNi41SDE1TTE1IDYuNUw5LjQgMU0xNSA2LjVMOS40IDEyIiBzdHJva2U9IndoaXRlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==");
+    display: inline-block;
+    width: 17px;
+    height: 13px;
+    background-size: 100% 100%;
+    margin-bottom: -2px;
+}
+
+@media screen and (max-width: 1024px) {
+    .link {
+        font-size: 14px;
+    }
+
+    .link--white {
+        font-size: 12px;
+        line-height: 1.3;
+    }
+
+
+    .link--xl {
+        font-size: 14px;
+    }
+
+    .link--xl::after {
+        width: 18px;
+        height: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .link {
+        font-size: 14px;
+    }
+
+    .link--white {
+        font-size: 12px;
+        line-height: 1.3;
+    }
+}

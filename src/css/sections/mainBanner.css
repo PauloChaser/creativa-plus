@@ -1,0 +1,30 @@
+.mainBanner {
+    padding-top: 200px;
+    background-image: url("/img/mainBannerHD.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.mainBanner__inNumbers {
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .mainBanner {
+        padding-top: 60px;
+        background-image: url("/img/mainBannerHD.jpg");
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .mainBanner {
+        padding-top: 0;
+        background-image: none;
+        background-color: #ffffff;
+        flex-direction: column;
+    }
+}
+
